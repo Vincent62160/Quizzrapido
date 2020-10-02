@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+   <link rel="stylesheet" href="JeuQuestion.css">
+   <title>Quiz</title>
+ </head>
+ <body>
+ <header class="header">
+<img class="banniere" src="image/question.jpg"/>
+<nav class="nav">
+
+    <a class="lien" href="#">Mathématique</a>
+	<a class="lien"href="#">Français</a>
+	<a class="lien" href="#">Culture générale</a>
+	<a class="lien" href="#">Histoire</a>
+	
+</nav>
+</header>
+
+<section >
+<div class="section">
+<div class="presentation">
+<h3 class="title2">C'est parti pour une série de questions qui vous ferons gagner quelques neurones.</h3>
+<hr>
+
+</div>
+<form class="formulaire1" method="post" action="">
+
+<div class="formulairegauche">
+<input class="btn1" type="radio" name="aide" action=""> Français</input><br>
+<input class="btn2" type="radio" name="commande" action=""> Mathématique</input><br>
+<input class="btn3" type="radio" name="retour" action=""> Histoire</input><br>
+<input class="btn4" type="radio" name="données" action=""> Culture générale</input><Br>
+</div>
+</form>
+
+<form class="formulaire2" name="myForm" method="post" action="" onsubmit="return validateForm()" >
+<h3 class="title2">C'est parti.</h3>
+<p>Quel est le pluriel du nom travail ?</p>
+<p><input class="q1"  name="q1"type="text" placeholder="Entrer votre réponse..."></p>
+<p>Dans quel milieu un amphibien peut-t'il vivre ?</p>
+<p><input class="q2"   name="q2"type="text" placeholder="Entrer votre réponse mail..."></p>
+<p>Qui est le héro dans le livre de la jungle ?</p>
+<p><input class="q3"  name="q3"type="text" placeholder="Entrer votre réponse de..."></p>
+<p>Quel est le radical du verbe chanter ?</p>
+<p><input class="q4"  name="q4"type="text" placeholder="Entrer votre réponse de..."></p>
+<p>Quel est le plus petit doigt de l'homme ?</p>
+<p><input class="q5"  name="q5"type="text" placeholder="Entrer votre réponse de..."></p>
+
+</div>
+</section>
+<footer class="footer">
+<div class="container"></div>
+</footer>
+<script src="jquery-3.5.1.js"></script>
+<script src="JeuQuestion.js"></script>
+</body>

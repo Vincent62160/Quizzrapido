@@ -1,0 +1,84 @@
+body{
+	font-size:1em;
+	font-family:nunito bold;
+	background:#006B44 ;
+	font-size:1em;
+}
+.banniere {
+	height:15em;
+	width:100%;
+}
+nav {
+	background:#006B44 ;
+	position:fixed;
+    top:0%;
+	width:100%;
+
+	padding:0.5%;	
+}
+.lien{
+	color:white;
+
+	
+	margin:0% 1% 0% 1%;
+	padding:0;  	
+}
+hr {
+	width:60%;
+	background:#FFF;
+	height:0.1em;
+}
+
+
+section{
+	float:right;
+	width:100%;	
+	padding:1%;
+	color:#FFF;
+}
+
+.title2{
+    margin-top:2%;
+	color:#FFF;
+	text-align:center;
+	}
+
+.para{
+	margin-top:5%;
+	
+}
+.formulairegauche{
+	float:left;
+	margin-right:10%;
+}
+.formulaire1{
+   
+    height:6em;
+	margin:2% 5% 2% 0%;
+	padding: 3%;
+}
+.formulaire2{
+	
+	padding:1%;
+	margin:2% 5% 2% 0%;
+	display:none;
+	
+}
+.envoyer{
+	background:rgb(136 205 119);
+	color:white;
+	border:0.2mm solid rgb(136 205 119);
+}
+
+
+.vignette{
+	width:15%;
+	height:10%;
+}
+.Panier{
+	background:rgb(136 205 119);
+	color:white;
+	border:0.2mm solid rgb(136 205 119);
+}
+
+
